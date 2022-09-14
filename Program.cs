@@ -34,6 +34,14 @@ for (int i = 0; i < strArr.Length; i++)
 
 Console.WriteLine();
 
+Console.WriteLine("Новый строчный массив из символов, длина которых <= 3: ");
 
+for (int i = 0; i < strArr.Length; i++)
+    if (strArr[i].Length <= 3)
+    {
+        Console.Write($"{strArr[i]}, ");
+    }
+
+ 
 
 
